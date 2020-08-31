@@ -12,6 +12,6 @@ class Song
   end
   
   def self.artist_name
-    Artist.name
+    !artist_name ? nil : art
   end
 end
