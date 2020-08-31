@@ -11,7 +11,7 @@ class Post
     @@all
   end
   
-  def authors_name
+  def author_name
     if !@author
     else
       @author.name
