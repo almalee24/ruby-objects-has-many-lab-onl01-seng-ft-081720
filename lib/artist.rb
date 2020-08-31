@@ -6,10 +6,11 @@ class Artist
   end
   
   def songs 
-    self.songs
+    song.all
   end
   
   def add_song(song)
+    
   end 
 
   def add_song_by_name(song_name)
